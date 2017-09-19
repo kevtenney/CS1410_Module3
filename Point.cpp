@@ -21,7 +21,7 @@ void UpdatePoint(struct Point &p); //passes by reference not copy because of the
 struct Point CreatePoint(); //no parameters so nothing inside ()
     // it is catching the struct point... if it was void it would not catch anything
 
-struct Point CreatePointValue(float x = 0.0, float y = 0.0); //float x and y are the signature
+struct Point CreatePointValue(float x = 1.0, float y = 1.0); //float x and y are the signature
 // Main Program Program...this sets x as 0.0 for the default value
 
 //Very small functions you can use inline functions
